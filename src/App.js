@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "./Navbar";
 import Homepage from "./Homepage";
+import SignIn from "./SignIn";
 import Footer from "./Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       </header>
       <main>
         <Homepage />
+        <SignIn />
       </main>
       <footer>
         <Footer />
