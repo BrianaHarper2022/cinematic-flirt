@@ -6,7 +6,7 @@ export default function Homepage() {
         <div className="Homepage">
             <h1>Connect based on your favorite movies</h1>
             <h2>Match anywhere. Watch anytime</h2>
-            <a href="#signin">Sign In</a>
+            <a href="#signin" className="mb-5">Sign In</a>
         </div>
     )
 }

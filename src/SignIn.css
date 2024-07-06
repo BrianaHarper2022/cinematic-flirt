@@ -1,3 +1,54 @@
-.user-info {
-    background-color: red;
+.box{
+    background-color: #E23175;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 60px auto;
+    max-width: 295px;
+    padding: 10px 38px;
+}
+
+.user-info, .password {
+    background-color: white;
+    border-radius: 5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 12px 20px 12px 15px;
+}
+
+.remember-me {
+    margin: 7px auto;
+}
+
+.submit-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 12px 20px 12px 15px;
+}
+
+.submit-button:hover {
+    background-color: #E23175;
+    border: 1px solid white;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.SignIn h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.Sign-up-link {
+    margin-top: 35px;
 }
