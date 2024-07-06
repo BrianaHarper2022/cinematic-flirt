@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "./Navbar";
-import Footer from './Footer';
+import Homepage from "./Homepage";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
+      <main>
+        <Homepage />
+      </main>
       <footer>
         <Footer />
       </footer>
