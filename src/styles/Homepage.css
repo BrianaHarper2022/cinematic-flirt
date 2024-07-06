@@ -1,6 +1,6 @@
 .Homepage {
     background-color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/movie-hero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/movie-hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;

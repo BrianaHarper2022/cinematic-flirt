@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from "./Navbar";
-import Homepage from "./Homepage";
-import SignIn from "./SignIn";
-import Footer from "./Footer";
+import Navbar from "./pages/Navbar";
+import Homepage from "./pages/Homepage";
+import SignIn from "./pages/SignIn";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
