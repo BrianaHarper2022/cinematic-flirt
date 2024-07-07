@@ -1,21 +1,29 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 export default function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+    
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
-    <div>
         <nav>
-            <ul>
-        <li><Link to="/Homepage">Homepage</Link></li>
-        <li><Link to="/SignIn">SignIn</Link></li>
-        <li><Link to="/About">About</Link></li>
-        <li><Link to="/Support">Support</Link></li>
-        <li><Link to="/Contact">Contact</Link></li>
-        <li><Link to="/Footer">Footer</Link></li>
-        
-        </ul>
+          <div className="navbar-container">
+            <ul className={isOpen ? 'nav-links open' : 'nav-links'}>
+                <li><Link to="/" className="Home-link">Cinematic Flirt</Link></li>
+                <li><Link to="/SignIn">(SignIn)</Link></li>
+                <li><Link to="/Support">Support</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
+            </ul>
+            <div className="hamburger" onClick={toggleMenu}>
+              &#9776; 
+            </div>
+          </div>
         </nav>
-    </div>
-    )
-}
+      );
+    };
