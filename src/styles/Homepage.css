@@ -7,22 +7,6 @@
   padding: 160px 20px;
 }
 
-.Homepage a {
-  background: #E23175;
-  border-radius: 5px;
-  color: black;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  padding: 16px 32px;
-  margin-top: 32px;
-  letter-spacing: 3px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 @media (max-width: 900px) {
   .Homepage {
     padding: 60px 0;
