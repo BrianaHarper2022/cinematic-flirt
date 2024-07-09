@@ -1,0 +1,9 @@
+.Footer p {
+    text-align: center;
+}
+
+.Footer a {
+    text-decoration: underline;
+    font-style: italic;
+    color: #E23175;
+}
