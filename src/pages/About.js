@@ -5,7 +5,7 @@ import cinema from "../assets/cinema.png";
 
 export default function About() {
     return (
-        <div className="content-container">
+        <div className="About">
             <div className="row">
                         <h1 className="m-4 text-center">About Cinematic Flirt</h1>
                     <div className="col-lg-6">
