@@ -5,9 +5,10 @@ import "../styles/SignInButton.css";
 export default function AccessibleButton() {
     const navigate = useNavigate();
     
-    const handleClick = () => {
+    function handleClick () {
         navigate("/SignIn");
     }
+
     return (
         <div>
             <button className="SignInButton"type="button" onClick={handleClick}>Sign In</button>
