@@ -12,6 +12,7 @@ import Layout from "./Layout";
 
 function App() {
   return (
+    <div>
     <Router>
       <Routes>
         <Route path="/"element={<Layout/>}>
@@ -20,10 +21,12 @@ function App() {
         <Route path="/About" element={<About/>}/>
         <Route path="/Support" element={<Support/>}/>
         <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/Footer" element={<Footer/>}/>
+        
         </Route>
       </Routes>
     </Router>
+    <Footer />
+    </div>
   );
 }
 
