@@ -3,7 +3,8 @@ import '../styles/SignIn.css';
 
 export default function SignIn() {
     
-    function handleSignIn() {
+    function handleSignIn(event) {
+        event.preventDefault();
         alert("👏You're signed in!👏");
     }
 
