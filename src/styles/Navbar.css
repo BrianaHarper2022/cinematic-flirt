@@ -41,7 +41,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.logo, .logo:hover{
+.logo{
     font-weight: bold;
     text-decoration: none;
 }
@@ -66,8 +66,9 @@ a:hover {
     .nav-links.open {
       display: flex;
     }
-  
+
     li {
-      margin: 10px 0;
+      margin: 5px 0;
     }
+
 }
