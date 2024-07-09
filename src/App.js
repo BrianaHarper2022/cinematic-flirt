@@ -12,21 +12,18 @@ import Layout from "./Layout";
 
 function App() {
   return (
-    <div>
     <Router>
       <Routes>
-        <Route path="/"element={<Layout/>}>
-        <Route path="/Homepage" element={<Homepage/>}/>
-        <Route path="/SignIn" element={<SignIn/>}/>
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Support" element={<Support/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-        
+        <Route path="/" element={<Layout/>}>
+          <Route index element={<Homepage/>}/>
+          <Route path="SignIn" element={<SignIn/>}/>
+          <Route path="About" element={<About/>}/>
+          <Route path="Support" element={<Support/>}/>
+          <Route path="Contact" element={<Contact/>}/>
         </Route>
       </Routes>
+        <Footer />
     </Router>
-    <Footer />
-    </div>
   );
 }
 
