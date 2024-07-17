@@ -1,32 +1,33 @@
 .Homepage {
-  background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/movie-hero.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: left;
   padding: 160px 20px;
 }
 
 @media (max-width: 900px) {
-  .Homepage {
-    padding: 60px 0;
-  }
   .Homepage h1 {
-    font-size: 30px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   .Homepage h2 {
     font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
   }
   .Homepage h3 {
-    font-size: 40px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
   }
   .Homepage a {
     padding: 10px 20px;
   }
   }
 
-@media (min-width: 774px) {
+@media (min-width: 900px) {
   .Homepage h3 {
     display: none;
   }

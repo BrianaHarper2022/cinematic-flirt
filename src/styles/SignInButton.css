@@ -15,3 +15,10 @@
     color: #E23175;
     transition: all 200ms ease-in-out;
 }
+
+@media (max-width: 900px) {
+    .SignInButton {
+        display: block;
+        margin: 20px auto;
+    }
+}
