@@ -7,7 +7,7 @@ export default function About() {
     return (
         <div className="About">
             <div className="row">
-                        <h1 className="m-4 text-center">About Cinematic Flirt</h1>
+                    <h1 className="m-2 text-center">About Cinematic Flirt</h1>   
                     <div className="col-lg-6">
                         <img src={cinema} className="cinema img-fluid" alt="Cinema"/>
                     </div>
