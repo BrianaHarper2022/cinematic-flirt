@@ -1,6 +1,7 @@
 .contact h1 {
-    font-size: 55px;
+    font-size: 50px;
 }
+
 .contact h4 {
     font-weight: normal;
 }
@@ -12,6 +13,7 @@
     width: 400px;
     place-items: center;
 }
+
 .message {
     display: flex;
     height: 120px;
@@ -40,8 +42,11 @@
     transition: all 200ms ease-in-out;
 }
 
-@media (max-width:768px) {
+@media (max-width: 500px) {
+    .contact h1 {
+        font-size: 40px;
+    }
     .text, .email, .tel, .message {
-        width: 390px;
+        width: 330px;
     }
 }
