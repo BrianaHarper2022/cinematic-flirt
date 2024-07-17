@@ -1,34 +1,38 @@
-.box{
+.SignIn-container {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+  
+.box {
     background-color: #E23175;
     border-radius: 5px;
     border: none;
     box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.2);
-    margin: 60px auto;
-    max-width: 295px;
-    padding: 10px 38px;
+    max-width: 400px;
+    padding: 48px 68px;
 }
 
 .user-info, .password {
-    background-color: white;
     border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    display: block;
     line-height: 1.5;
-    margin-bottom: 10px;
-    padding: 12px 20px 12px 15px;
+    margin: 12px auto;
+    padding: 12px 32px 12px 32px;
 }
 
-.remember-me {
-    margin: 7px auto;
+.form-check {
+    margin: 7px;
+    
 }
 
 .submit-button {
-    background-color: white;
-    border: none;
-    border-radius: 5px;
     box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    display: block;
     font-weight: 500;
+    margin: 12px auto;
     padding: 12px 20px 12px 15px;
     text-transform: uppercase;
 }
@@ -40,18 +44,25 @@
     transition: all 200ms ease-in-out;
 }
 
-.SignIn h2 {
+.SignIn-container h2 {
     color: black;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 p {
     margin-top: 10px;
+    text-align: center;
 }
 
 .Sign-up-link {
     margin-top: 35px;
+}
+
+@media (max-width: 500px) {
+    .box {
+        padding: 40px 35px;
+    }
 }
