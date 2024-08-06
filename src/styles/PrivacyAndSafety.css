@@ -1,0 +1,54 @@
+.privacy-and-safety {
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.privacy-and-safety h1 {
+    font-size: 50px;
+}
+
+.privacy-and-safety h3 {
+    color: #E23175;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.privacy-and-safety p {
+    text-align: left;
+}
+
+.privacy-and-safety ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.privacy-and-safety ul li {
+    margin: 10px 0;
+}
+
+.privacy-and-safety strong {
+    color: #E23175;
+}
+
+.privacy-and-safety a {
+    color: #E23175;
+    text-decoration: none;
+}
+
+.privacy-and-safety a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .privacy-and-safety h1 {
+        font-size: 30px;
+    }
+    
+    .privacy-and-safety h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
