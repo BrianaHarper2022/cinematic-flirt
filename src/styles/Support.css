@@ -31,6 +31,7 @@
     border-radius: 5px;
 }
 
+
 .support-link {
     background: #E23175;
     border: none;
@@ -40,4 +41,17 @@
     font-weight: 500;
     padding: 12px 20px 12px 15px;
     text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .support-hero h1 {
+        font-size: 20px;
+    }
+
+    .support-link-ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }

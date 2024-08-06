@@ -14,8 +14,8 @@ export default function Support() {
                 <input className="support-search" type="search" name="query" id="query" placeholder="Search" autoComplete="off" aria-label="Search"></input>
             </div>
             </div>
-            <div className="d-flex justify-content-center">
-                <ul>
+            <div>
+                <ul className="support-link-ul d-flex justify-content-center">
                     <li className="support-link m-3"><Link to="/GettingStarted">Getting Started</Link></li>
                     <li className="support-link m-3"><Link to="/OurGuidelines">Our Guidelines</Link></li>
                     <li className="support-link m-3"><Link to="/PrivacyAndSafety">Privacy & Safety</Link></li>
