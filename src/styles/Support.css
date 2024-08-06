@@ -1,0 +1,43 @@
+.support-hero {
+    background: pink;
+    padding: 100px;
+}
+
+.support-hero h1 {
+    font-size: 35px;
+}
+
+.support-search-input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.support-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+}
+
+.support-search {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.support-link {
+    background: #E23175;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 12px 20px 12px 15px;
+    text-transform: uppercase;
+}
