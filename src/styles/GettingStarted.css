@@ -1,0 +1,54 @@
+.getting-started{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.getting-started h1 {
+    font-size: 50px;
+}
+
+.getting-started h3 {
+    color: #E23175;
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+.getting-started p {
+    text-align: left;
+}
+
+.getting-started ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.getting-started ul li {
+    margin: 10px 0;
+}
+.getting-started strong {
+    color: #E23175;
+}
+
+.getting-started a {
+    color: #E23175;
+    text-decoration: none;
+}
+
+.getting-started a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .getting-started h1 {
+        font-size: 30px;
+    }
+    
+    .getting-started h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}
