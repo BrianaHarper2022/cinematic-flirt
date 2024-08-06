@@ -16,9 +16,9 @@ export default function Support() {
             </div>
             <div className="d-flex justify-content-center">
                 <ul>
-                    <li className="support-link m-3"><Link to="/Contact">Getting Started</Link></li>
-                    <li className="support-link m-3"><Link to="/Contact">Our Guidelines</Link></li>
-                    <li className="support-link m-3"><Link to="/Contact">Privacy & Safety</Link></li>
+                    <li className="support-link m-3"><Link to="/GettingStarted">Getting Started</Link></li>
+                    <li className="support-link m-3"><Link to="/OurGuidelines">Our Guidelines</Link></li>
+                    <li className="support-link m-3"><Link to="/PrivacyAndSafety">Privacy & Safety</Link></li>
                     <li className="support-link m-3"><Link to="/Contact">Contact Us</Link></li>
                 </ul>
             </div>
