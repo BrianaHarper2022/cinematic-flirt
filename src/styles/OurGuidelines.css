@@ -1,0 +1,55 @@
+.our-guidelines {
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.our-guidelines h1 {
+    font-size: 50px;
+}
+
+.our-guidelines h3 {
+    color: #E23175;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.our-guidelines p {
+    text-align: left;
+}
+
+.our-guidelines ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.our-guidelines ul li {
+    margin: 10px 0;
+}
+
+.our-guidelines strong {
+    color: #E23175;
+}
+
+.our-guidelines a {
+    color: #E23175;
+    text-decoration: none;
+}
+
+.our-guidelines a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .our-guidelines h1 {
+        font-size: 30px;
+    }
+    
+    .our-guidelines h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}
