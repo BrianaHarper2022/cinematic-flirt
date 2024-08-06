@@ -31,6 +31,9 @@
     border-radius: 5px;
 }
 
+.support-link-ul {
+    list-style: none;
+}
 
 .support-link {
     background: #E23175;
