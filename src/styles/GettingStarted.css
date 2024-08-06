@@ -1,5 +1,4 @@
-.getting-started{
-    font-family: Arial, sans-serif;
+.getting-started {
     line-height: 1.6;
     max-width: 1000px;
     margin: 0 auto;
@@ -28,6 +27,7 @@
 .getting-started ul li {
     margin: 10px 0;
 }
+
 .getting-started strong {
     color: #E23175;
 }
