@@ -5,6 +5,7 @@
 
 .support-hero h1 {
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .support-search-input-container {
@@ -33,6 +34,7 @@
 
 .support-link-ul {
     list-style: none;
+    padding: 0;
 }
 
 .support-link {
@@ -48,7 +50,7 @@
 
 @media (max-width: 500px) {
     .support-hero h1 {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .support-link-ul {
