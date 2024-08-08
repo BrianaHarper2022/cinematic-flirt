@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
-  padding: 160px 20px;
+  padding: 176px 20px;
 }
 
 @media (max-width: 900px) {
@@ -12,24 +12,26 @@
     margin-bottom: 10px;
     text-align: center;
   }
+
   .Homepage h2 {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
   }
+
   .Homepage h3 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
   }
+
   .Homepage a {
     padding: 10px 20px;
   }
-  }
+}
 
 @media (min-width: 900px) {
   .Homepage h3 {
     display: none;
   }
-    
 }
