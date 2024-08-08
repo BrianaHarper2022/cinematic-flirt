@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/About.css';
-import "bootstrap/dist/css/bootstrap.css";
 import cinema from "../assets/cinema.png";
 
 export default function About() {
