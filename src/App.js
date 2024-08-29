@@ -2,7 +2,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from "./pages/Homepage";
-import SignIn from "./pages/SignIn";
+import LoginSignup from "./pages/LoginSignup";
+import HomepageButton from "./pages/HomepageButton";
 import Footer from "./pages/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -19,7 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage/>}/>
-          <Route path="SignIn" element={<SignIn/>}/>
+          <Route path="LoginSignup" element={<LoginSignup/>}/>
+          <Route path="HomepageButton" element={<HomepageButton/>}/>
           <Route path="About" element={<About/>}/>
           <Route path="Support" element={<Support/>}/>
           <Route path="Contact" element={<Contact/>}/>
