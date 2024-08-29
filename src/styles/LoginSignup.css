@@ -1,0 +1,96 @@
+.LoginSignup-container {
+    background-color: #E23175;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    margin-top: 110px;
+    padding-bottom: 30px;
+    width: 470px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-header {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    background-color: white;
+    border-radius: 9px;
+    height: 6px;
+    margin: 10px;
+    width: 80px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 55px;
+}
+
+.input {
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    margin: auto;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    font-size: 19px;
+    outline: none;
+    height: 50px;
+    width: 400px;
+}
+
+.forgot-password {
+    font-size: 18px;
+    margin-top: 27px;
+    padding-left: 100px;
+}
+
+.forgot-password span {
+    color: white;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    align-items: center;
+    background-color: white;
+    border-radius: 36px;
+    color: #E23175;
+    cursor: pointer;
+    display: flex;
+    font-size: 19px;
+    font-weight: 700;
+    height: 59px;
+    justify-content: center;
+    width: 186px;
+}
+
+.change {
+    background-color: #E23175;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .box {
+        padding: 40px 35px;
+    }
+}
